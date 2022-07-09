@@ -10,10 +10,8 @@ extern crate serde_json;
 extern crate sodiumoxide;
 
 mod db;
-mod models;
-mod routes;
-mod schema;
 mod server;
+mod users;
 
 #[launch]
 fn rocket() -> _ {

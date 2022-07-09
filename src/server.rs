@@ -1,5 +1,5 @@
 use crate::db::*;
-use crate::routes::*;
+use crate::users::routes::*;
 use rocket::{Build, Rocket};
 use std::env;
 

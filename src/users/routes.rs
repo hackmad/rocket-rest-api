@@ -1,5 +1,5 @@
+use super::models::*;
 use crate::db::MyDatabase;
-use crate::models::{LoginRequest, NewUserRequest, User, UserResponse};
 use rocket::response::status::{BadRequest, Forbidden};
 use rocket::serde::json::Json;
 use rocket::{get, post};

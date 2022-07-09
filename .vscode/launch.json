@@ -7,15 +7,15 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug executable 'rest-api'",
+            "name": "Debug executable 'rocket-rest-api'",
             "cargo": {
                 "args": [
                     "build",
-                    "--bin=rest-api",
-                    "--package=rest-api"
+                    "--bin=rocket-rest-api",
+                    "--package=rocket-rest-api"
                 ],
                 "filter": {
-                    "name": "rest-api",
+                    "name": "rocket-rest-api",
                     "kind": "bin"
                 }
             },
@@ -28,16 +28,16 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in executable 'rest-api'",
+            "name": "Debug unit tests in executable 'rocket-rest-api'",
             "cargo": {
                 "args": [
                     "test",
                     "--no-run",
-                    "--bin=rest-api",
-                    "--package=rest-api"
+                    "--bin=rocket-rest-api",
+                    "--package=rocket-rest-api"
                 ],
                 "filter": {
-                    "name": "rest-api",
+                    "name": "rocket-rest-api",
                     "kind": "bin"
                 }
             },

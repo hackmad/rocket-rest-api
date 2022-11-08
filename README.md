@@ -1,5 +1,7 @@
 # Rest API with Rocket + Diesel
 
+__NOTE:__ This cannot be updated to `diesel 2.0.x` as the `rocket_sync_db_pools` does not support it.
+
 ```bash
 brew install libpq
 brew link --force libpq
